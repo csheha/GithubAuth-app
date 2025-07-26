@@ -28,6 +28,11 @@ app.use(
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      secure: false, // Set to true in production if using HTTPS
+      maxAge: 1000 * 60 * 60 * 24, // 1 day (optional but good)
+    },
   })
 );
 
