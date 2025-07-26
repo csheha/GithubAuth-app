@@ -70,3 +70,6 @@ A simple MERN stack app with GitHub OAuth login using Passport.js and JWT authen
 # License
 
     MIT License
+
+
+<img width="812" height="657" alt="Github Auth Flow" src="https://github.com/user-attachments/assets/3ca5c55e-f9cb-4a22-9d30-963874ce4679" />
